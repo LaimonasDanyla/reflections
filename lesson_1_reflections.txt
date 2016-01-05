@@ -17,46 +17,46 @@ commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
     Pros of manual commits:
-      -You do you after one logical change
-      -Allows you to commit at certain time and phase when needed, to create
+      - You do it after one logical change
+      - Allows you to commit at certain time and phase when needed, to create
       logical blocks of changes in a code
-      - allows commenting on every commit to track what has been done.
+      - Allows commenting on every commit to track what has been done.
     Cons of manual commits:
-      -extra work.
+      - extra work and time.
     Pros of automatically saved versions:
       - saves time
       - have a backup
     Cons of automatically saved versions:
       - if saved in the middle of the process - will be hard to follow up
       - no comments (??) are possible for saved versions
-      - it would make harder take too much time to assemble the right code
-
-
+      - it would make harder and would take too much time to assemble
+      the right code or version.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
     It is very important feature to commit multiple files: a change in one file
-    can have related changes in another file or files, whether automatically or
-    manually. So one commit would allow to see changes in all related submitted
-    files.
+    can have related changes in another file or files, whether automatic or
+    manual. So one commit would allow to see changes in all related and
+    submitted files.
 
 How can you use the commands git log and git diff to view the history of files?
 
-    With git log we can see all commits (versions) and find comments that are
-    of interest. When needed commit is found, using git diff we can compare
-    needed versions of files by typing in git bash $ git diff following
-    the ID ID of commits. Diff outcome clearly shows added (+ green) and
-    removed lines (red -) and what remains unchanged (black).
+    With git log we can see all commits (versions) and find comments that we
+    need to compare. When needed commit is found, using git diff we can compare
+    needed versions of files by typing in git diff following
+    the ID of previous and ID of actual commits. Diff outcome clearly shows
+    added (+ green) and removed lines (red -) and what remains unchanged
+    (black).
 
 How might using version control make you more confident to make changes that
 could break something?
 
     It is possible to get back to the last version till all was working as
-    intended: by checking recent working commits, comparing them and spotting
-    changes in each quickly. So it is possible to take extra risk and trials
+    intended: by checking recent working commits, comparing them and quickly
+    spotting changes in each. So it is possible to take extra risk and trials
     on code and program functionality.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I will use Git for version control of my code.
+    I will use Git for version control and history of my projects.
