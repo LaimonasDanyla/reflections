@@ -16,13 +16,40 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+		It is possible to compare changes in files between working directory and
+		staging area using git diff, and between files in staging area and in
+		repository using git diff --staged. This allows checking of the exact
+		changes between files, and then decision can be made whether it meets
+		one logical change condition to be committed.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+		When need to make some experimental or other versions of the program, when
+		need to share and discuss the code and you want to do it outside the master
+		branch etc. By using branches you maintain master version valid without
+		a mix of other kind of (let's say minor) versions. With the help of branches
+		history will be well organized and clearly visible what trials or versions
+		has been done to the code outside the master branch.
+
 How do the diagrams help you visualize the branch structure?
+
+		Diagrams makes it easier to understand parent commits and branches, places
+		where branches were created, how they continue their structure (merging
+		to master branch or certain branch becomes as master one).
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+		Now the game has new feature - collection of coins (yellow) and
+		automatically updated score. This feature was developed in the new coins
+		branch, tested how it works, developed with other people.
+		Diagram clearly shows where new branch was started, what are the commits
+		and merging point. Diagram makes easy to find and compare e.g. latest
+		commits before new branch and latest before merge of branches.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+		-pros: saves allot of time and is a big help for developer
+		-cons: can merge wrong parts and make bad outcome, still needs checking. 
